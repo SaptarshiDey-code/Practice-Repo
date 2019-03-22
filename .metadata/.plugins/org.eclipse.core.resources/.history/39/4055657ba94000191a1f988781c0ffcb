@@ -1,0 +1,22 @@
+package Day3_collections;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Vector;
+import java.util.*;
+
+public class CollectionDemo {
+	public static void main(String args[]) {
+		Vector countries=new Vector();
+		countries.add("India");
+		countries.add("Australia");
+		countries.add("Nepal");
+		countries.add("Bhutan");
+		System.out.println(countries.size());
+		for(Object o:countries) {
+			System.out.println(o);
+		}
+		countries.remove("Nepal");
+		countries.forEach(o-> System.out.println(o));
+	}
+
+}

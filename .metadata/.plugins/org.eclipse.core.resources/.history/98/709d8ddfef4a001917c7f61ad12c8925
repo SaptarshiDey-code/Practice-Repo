@@ -1,0 +1,10 @@
+package Day9;
+import java.lang.reflect.*;
+public class ReflMain {
+	Scanner sc=new Scanner(System.in);
+	public static void main(String args[]) {
+		int a,b;
+		Syste
+	}
+
+}

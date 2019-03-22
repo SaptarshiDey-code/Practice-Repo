@@ -1,0 +1,20 @@
+package Weekend2;
+
+public class Wassgn2 {
+	int id;
+	String name;
+	int age;
+	String department;
+	String city;
+	int salary;
+	
+	public Wassgn(int id,String name,int age, String department,String city,int salary) {
+		this.id=id;
+		this.name=name;
+		this.age=age;
+		this.department=department;
+		this.city=city;
+		this.salary=salary;
+	}
+
+}

@@ -1,0 +1,21 @@
+package Day9;
+import java.lang.reflect.*;
+import java.util.*;
+public class ReflMain {
+	
+	public static void main(String args[]) {
+		int a,b;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter The Two Numbers:");
+		a=sc.nextInt();
+		b=sc.nextInt();
+		
+		CalcRfl Ob=new CalcRfl(a,b);
+		
+		Class Cl=Ob.getClass();
+		
+		Constructor con=Cl.getConstructor(Cl.a,Cl.b);
+		
+	}
+
+}

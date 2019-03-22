@@ -1,0 +1,26 @@
+package Day9;
+import java.lang.reflect.*;
+
+public class CalcRfl {
+	int a,b;
+CalcRfl(Integer a,Integer b){
+	this.a=a;
+	this.b=b;
+}
+	
+	public int add(int a,int b) {
+		return a+b;
+	}
+	public int sub(int a,int b) {
+		return a-b;
+	}
+	
+	public int mul(int a,int b) {
+		return a*b;
+	}
+	
+	public int div(int a,int b) {
+		return a/b;
+	}
+
+}

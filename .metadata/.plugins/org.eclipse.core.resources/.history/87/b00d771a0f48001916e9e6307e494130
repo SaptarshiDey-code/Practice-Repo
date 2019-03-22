@@ -1,0 +1,42 @@
+package Weekend2;
+import java.util.*;
+public class Wassgn2main {
+	
+public static void main(String args[]) {
+	Scanner sc=new Scanner(System.in);
+	Wassgn2Op O=new Wassgn2Op();
+	int ch;
+	while(true) {
+	System.out.println("1.Add Employee");
+	System.out.println("2.Show All Employees");
+	System.out.println("3.Edit Employee");
+	System.out.println("4. Delete Employee");
+	System.out.println("5. Show Statistics");
+	System.out.println("6. Import From File");
+	System.out.println("7. Exit");
+	System.out.println("Enter Your Choice 1,2,3,4,5,6,7:");
+	ch=sc.nextInt();
+	switch(ch) {
+	case 1:O.AddEmpl();
+	break;
+	
+	case 2:O.displayEmpl();
+	break;
+	
+	case 3:O.Edit();
+	break;
+	
+	case 4: O.DeleteEmpl();
+			break;
+			
+	case 5: O.statisticsStream();
+			break;
+	
+	case 7:System.exit(0);
+		   break;
+	
+	default: System.out.println("Wrong Choice");
+	}
+	}
+}
+}

@@ -1,0 +1,15 @@
+package Weekend2;
+import java.util.*;
+public class Wassgn2main {
+	
+public static void main(String args[]) {
+	Scanner sc=new Scanner(System.in);
+	int ch;
+	System.out.println("1.Add Employee");
+	System.out.println("2.Show All");
+	System.out.println("3.Exit");
+	System.out.println("Enter Your Choice 1,2,3:");
+	ch=sc.nextInt();
+	
+}
+}
